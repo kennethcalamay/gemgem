@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'jquery-rails'
 gem 'slim-rails'
+gem 'simple_form'
 
 group :development, :test do
   gem 'byebug'
@@ -24,5 +25,6 @@ gem 'trailblazer-loader'
 gem 'reform'
 
 group :test do
-  gem 'minitest-rails-capybara'
+  gem 'rspec-rails'
+  gem 'capybara'
 end
