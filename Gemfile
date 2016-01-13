@@ -23,8 +23,12 @@ end
 gem 'trailblazer-rails'
 gem 'trailblazer-loader'
 gem 'reform'
+gem 'cells'
+gem 'cells-slim'
 
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
 end
+
+gem 'rails-timeago'
